@@ -1,0 +1,48 @@
+git add .
+cat > .gitignore << 'EOF'
+git add .
+
+# Data files - don't commit large data files to Git
+*.csv
+*.zip
+*.xlsx
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+archive*/
