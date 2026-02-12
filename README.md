@@ -3,11 +3,11 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-orange.svg)
 
-## 📋 Overview
+##  Overview
 
 A machine learning classification project to predict customer churn for SyriaTel telecommunications company. The model identifies customers likely to discontinue service, enabling proactive retention strategies and reducing revenue loss.
 
-## 🎯 Business Problem
+##  Business Problem
 
 **Challenge**: SyriaTel experiences 14.5% customer churn, resulting in significant revenue loss.
 
@@ -15,25 +15,13 @@ A machine learning classification project to predict customer churn for SyriaTel
 
 **Impact**: Enable targeted retention campaigns and reduce customer attrition.
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: SyriaTel Customer Churn Dataset
 - **Size**: 3,333 customer records
 - **Features**: 21 columns (account info, usage metrics, service plans)
-- **Target**: Churn (binary: Yes/No)
-- **Class Distribution**: 85.5% retained, 14.5% churned
 
-## 🛠️ Technologies
-
-```
-Python 3.8+
-pandas, numpy, scikit-learn
-matplotlib, seaborn
-Jupyter Notebook
-```
-
-
-## 🔍 Methodology
+## Methodology
 
 1. **Data Exploration**: Analyzed patterns, distributions, and correlations
 2. **Feature Engineering**: Created aggregate features (total minutes, calls, charges)
@@ -41,7 +29,7 @@ Jupyter Notebook
 4. **Modeling**: Trained Logistic Regression, Decision Tree, Random Forest, Gradient Boosting
 5. **Evaluation**: Compared models using accuracy, precision, recall, F1-score, ROC-AUC 
 
-## 📈 Results
+##  Results
 
 ### Best Model: Random Forest (Tuned)
 
@@ -68,7 +56,7 @@ Jupyter Notebook
 - **Geographic variation**: Certain states show significantly higher churn
 - **High charges** are strong churn predictors
 
-## 💼 Business Recommendations
+##  Business Recommendations
 
 ### 1. Improve Customer Service Quality
 - Root cause analysis for repeated service calls
@@ -91,10 +79,9 @@ Jupyter Notebook
 - Investigate regional competitive threats
 - **Expected Impact**: 10-15% state-specific reduction
 
-## 👤 Author
+##  Author
 
 **Your Name**
 - GitHub: [@monicahwairimu](https://github.com/monicahwairimu124)
 - Email: monicahwairimu124@gmail.com
 
-*Last Updated: February 2026*
