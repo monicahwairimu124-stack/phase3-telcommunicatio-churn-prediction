@@ -1,8 +1,5 @@
 # SyriaTel Customer Churn Prediction
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-orange.svg)
-
 ##  Overview
 
 A machine learning classification project to predict customer churn for SyriaTel telecommunications company. The model identifies customers likely to discontinue service, enabling proactive retention strategies and reducing revenue loss.
